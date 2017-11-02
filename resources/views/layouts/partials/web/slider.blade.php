@@ -8,18 +8,19 @@
                 <!-- LAYERS NR. 1 -->
                 <div class="tp-caption lfl"
                      data-x="left"
-                     data-y="100"
+                     data-y="center"
                      data-speed="800"
                      data-start="1200"
                      data-easing="Power4.easeOut"
                      data-endspeed="300"
                      data-endeasing="Linear.easeNone"
-                     data-captionhidden="off"><img class="img-responsive" style="width: 60%;" src="{{ asset('images/ladrillo.png') }}" alt="" />
+                     data-captionhidden="off"><img class="img-responsive" style="width: 70%;" src="{{ asset('images/ladrillo.png') }}" alt="" />
                 </div>
                 <!-- LAYERS LOGO -->
                 <div class="tp-caption lfl"
-                     data-x="-100"
-                     data-y="300"
+                     data-x="left"
+                     data-y="bottom"
+                     data-voffset="-50"
                      data-speed="800"
                      data-start="1200"
                      data-easing="Power4.easeOut"
@@ -36,7 +37,7 @@
                      data-easing="Power4.easeOut"
                      data-endspeed="300"
                      data-endeasing="Linear.easeNone"
-                     data-captionhidden="off">Ladrillos
+                     data-captionhidden="off">Ladrillos de Telgopor
                 </div>
                 <!-- LAYER NR. 3 -->
                 <div class="tp-caption whitedivider3px customin customout tp-resizeme"
@@ -62,8 +63,8 @@
                      data-speed="1000"
                      data-start="2700"
                      data-easing="Power3.easeInOut"
-                     data-splitin="chars"
-                     data-splitout="chars"
+                     data-splitin="lines"
+                     data-splitout="lines"
                      data-elementdelay="0.08"
                      data-endelementdelay="0.08"
                      data-endspeed="500"
@@ -85,7 +86,7 @@
                      data-endelementdelay="0.08"
                      data-endspeed="300"
                      style="z-index: 10; max-width: auto; max-height: auto; white-space: nowrap;">
-                    <p>Ideal para realizar losas livianas, reduciendo el peso propio e incrementando notablemente el nivel de aislación térmica.</p>
+                    <p>Ladrillos ultralivianos para techos y entrepisos con viguetas.</p>
                     <p>Medidas: 1000 x 420 m/m</p>
                     <p>Espesores: 100, 120, 160 y 200 m/m</p>
                 </div>
