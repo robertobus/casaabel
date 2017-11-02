@@ -15,4 +15,7 @@
     return view('layouts.web');
 });*/
 
-Route::resource('/', 'WebController');
+Route::prefix('/')->group(function () {
+	Route::get('/', 'WebController@index');
+	Route::get('/contacto', 'WebController@contacto');
+});

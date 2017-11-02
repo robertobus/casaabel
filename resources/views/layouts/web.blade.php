@@ -20,10 +20,11 @@ Landing page based on Pratt: http://blacktie.co/demo/pratt/
     <!-- Slider -->
     @yield('home-slider')
 
+    <!-- Header Title Page -->
+    @yield('header-title-page')
+
     <!-- Main Content -->
-    <div class="main-content">
-        @yield('main-content')
-    </div>
+    @yield('main-content')
 
     <!-- Footer -->
     @include('layouts.partials.web.footer')

@@ -5,7 +5,7 @@
 @endsection
 
 @section('main-content')
-
+<div class="main-content">
     <div class="showcase">
         <div class="container">
             <div class="row">
@@ -36,5 +36,5 @@
             </div>
         </div>
     </div>
-
+</div>
 @endsection

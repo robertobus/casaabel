@@ -38,9 +38,9 @@
                     <div class="contact-details">
                         <i class="fa fa-map-marker br-blue"></i> <span>#407, Av. Roberto Oliver<br> Monte Grande</span>
                         <div class="clearfix"></div>
-                        <i class="fa fa-phone br-blue"></i> <span>011-2635 3952 / 4272 9108 <br> Sabrina: 011-2655 3032 <br> Abel: 011-6305 2188 <br> Nextel: 380*5172</span>
+                        <i class="fa fa-phone br-blue"></i> <span>011-2635 3952 / 4272 9108 <br> <b>Sabrina:</b> 011-2655 3032 <br> <b>Abel:</b> 011-6305 2188 <br> <b>Nextel:</b> 380*5172</span>
                         <div class="clearfix"></div>
-                        <i class="fa fa-envelope-o br-blue"></i> <span><a href="#">contacto@casaabelaislaciones.com</a></span>
+                        <i class="fa fa-envelope-o br-blue"></i> <span><a href="#">contacto@casaabel.com</a></span>
                         <div class="clearfix"></div>
                     </div>
                     <div class="social">

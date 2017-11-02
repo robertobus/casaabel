@@ -16,4 +16,14 @@ class WebController extends Controller
         ]);
     }
 
+    /**
+     * @return \Illuminate\Http\Response
+     */
+    public function contacto()
+    {
+        return view('web.contacto', [
+            'page_title' => 'Contacto',
+        ]);
+    }
+
 }
