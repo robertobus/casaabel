@@ -236,7 +236,8 @@ table { background: #fff; }
 
 .logo img {
 	display: inline-block; 
-	max-width: 50px;
+	/*max-width: 50px; tito */
+    margin-bottom: 10px; /* tito */
 }
 
 .logo h1 {
@@ -364,6 +365,32 @@ table { background: #fff; }
 }
 
 .header .navbar-default .navbar-nav > li ul.dropdown-md a.btn{ margin-top: 8px; }
+
+/*
+ * header Schedule (tito)
+ */
+
+.header .header-schedule span{
+    display: inline-block;
+    margin-top: 7px;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: #898989;
+}
+
+.header .header-schedule span i{
+    display: inline-block;
+    margin-right: 3px;
+    font-size: 18px;
+}
+
+.header .header-schedule span {
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    text-align: center;
+}
 
 /*
  * Cart Link
@@ -882,7 +909,7 @@ table { background: #fff; }
  * Showcase Section
  */
  
-.showcase { padding-top: 80px; }
+.showcase { padding-top: 30px; }
  
 .showcase .showcase-item{
 	position: relative;
@@ -893,12 +920,13 @@ table { background: #fff; }
 
 .showcase .showcase-item img {
 	position: absolute;
-	top: -30px;
-	width: 100%;
+	top: 35px;
+    left: 20px;
+	width: 25%;
 	max-width: 255px;
 }
 
-.showcase .showcase-item h3, .showcase .showcase-item p { margin-left: 270px; padding-right: 20px;}
+.showcase .showcase-item h3, .showcase .showcase-item p { margin-left: 130px; padding-right: 20px;}
 .showcase .showcase-item h3{	
 	padding-top: 10px;
 	font-size: 22px;
@@ -1791,7 +1819,7 @@ div.ppt { display:none !important; }
 .footer { background: #fff; border-top: 1px solid #eaeaea; margin-top:20px;}
 .footer .footer-widget { margin-bottom: 40px;}
 .footer .footer-widget .logo{ margin-top: 0; margin-bottom: 10px; }
-.footer .footer-widget .logo img{ max-width: 40px; }
+.footer .footer-widget .logo img{ max-width: 250px; } /* tito */
 .footer .footer-widget .logo h1{ top: 10px; font-size: 30px; }
 .footer .footer-widget h4 {
 	margin-top: 0;
@@ -2129,7 +2157,8 @@ div.ppt { display:none !important; }
 	.showcase .showcase-item { padding: 20px; }
 	.showcase .showcase-item img {
 		position: relative;
-		top: -40px;
+		top: -20px;
+        left: 0px;
 		margin: 0 auto;
 	}
 

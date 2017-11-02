@@ -24,6 +24,9 @@
     jQuery(document).ready(function() {
         jQuery('.tp-banner').revolution(
                 {
+                    stopLoop: 'on',
+                    stopAfterLoops:0,
+                    stopAtSlide:1,
                     delay:9000,
                     startheight:500,
                     hideThumbs:10,
@@ -33,8 +36,6 @@
                     onHoverStop:"on",
                     navOffsetHorizontal:0,
                     navOffsetVertical:20,
-                    stopAtSlide:-1,
-                    stopAfterLoops:-1,
                     shadow:0,
                     fullWidth:"off",
                     fullScreen:"off"

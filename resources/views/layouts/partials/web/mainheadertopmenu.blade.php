@@ -4,11 +4,11 @@
         <a href="index.html">
             <!-- Logo area -->
             <div class="logo">
-                <img class="img-responsive" src="{{ asset('theme_web/img/logo1.png') }}" alt="" />
-                <!-- Heading -->
+                <img class="img-responsive" src="{{ asset('images/casaabel.png') }}" alt="" />
+                <!-- Heading
                 <h1>Casa Abel</h1>
-                <!-- Paragraph -->
-                <p style="margin-left: 22%; font-size: 18px; font-weight: bolder;">Aislaciones</p>
+                <!-- Paragraph
+                <p style="margin-left: 22%; font-size: 18px; font-weight: bolder;">Aislaciones</p>-->
             </div>
         </a>
     </div>

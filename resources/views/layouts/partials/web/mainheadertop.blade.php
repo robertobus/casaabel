@@ -4,20 +4,12 @@
             <!-- Header top left content contact -->
             <div class="header-contact">
                 <!-- Contact number -->
-                <span><i class="fa fa-phone blue"></i> 888-888-8888</span>
+                <span><i class="fa fa-phone blue"></i> 011-2655 3032 / 4272 9108</span>
             </div>
         </div>
         <div class="col-md-4 col-sm-4">
-            <!-- Header top right content search box -->
-            <div class=" header-search">
-                <form class="form" role="form">
-                    <div class="input-group">
-                        <input type="text" class="form-control" placeholder="Search...">
-                        <span class="input-group-btn">
-                        <button class="btn btn-default" type="button"><i class="fa fa-search"></i></button>
-                        </span>
-                    </div>
-                </form>
+            <div class="header-schedule">
+                <span><i class="fa fa-clock-o blue"></i> Lunes a Sabados de 8 a 18 Hs.</span>
             </div>
         </div>
         <div class="col-md-4 col-sm-4">
@@ -25,62 +17,12 @@
             <div class="btn-cart-md">
                 <a class="cart-link" href="#">
                     <!-- Image -->
-                    <img class="img-responsive" src="{{ asset('theme_web/img/cart.png') }}" alt="" />
+                    <img class="img-responsive" src="{{ asset('theme_web/icons/icon-location.png') }}" alt="" />
                     <!-- Heading -->
-                    <h4>Shopping Cart</h4>
-                    <span>3 items $489/-</span>
+                    <h4>Monte Grande</h4>
+                    <span>Av. Roberto Oliver #407</span>
                     <div class="clearfix"></div>
                 </a>
-                <ul class="cart-dropdown" role="menu">
-                    <li>
-                        <!-- Cart items for shopping list -->
-                        <div class="cart-item">
-                            <!-- Item remove icon -->
-                            <a href="#"><i class="fa fa-times"></i></a>
-                            <!-- Image -->
-                            <img class="img-responsive img-rounded" src="img/nav-menu/nav1.jpg" alt="" />
-                            <!-- Title for purchase item -->
-                            <span class="cart-title"><a href="#">Exception Reins Evocative</a></span>
-                            <!-- Cart item price -->
-                            <span class="cart-price pull-right red">$200/-</span>
-                            <div class="clearfix"></div>
-                        </div>
-                    </li>
-                    <li>
-                        <!-- Cart items for shopping list -->
-                        <div class="cart-item">
-                            <!-- Item remove icon -->
-                            <a href="#"><i class="fa fa-times"></i></a>
-                            <!-- Image -->
-                            <img class="img-responsive img-rounded" src="img/nav-menu/nav2.jpg" alt="" />
-                            <!-- Title for purchase item -->
-                            <span class="cart-title"><a href="#">Taut Mayoress Alias Appendicitis</a></span>
-                            <!-- Cart item price -->
-                            <span class="cart-price pull-right red">$190/-</span>
-                            <div class="clearfix"></div>
-                        </div>
-                    </li>
-                    <li>
-                        <!-- Cart items for shopping list -->
-                        <div class="cart-item">
-                            <!-- Item remove icon -->
-                            <a href="#"><i class="fa fa-times"></i></a>
-                            <!-- Image -->
-                            <img class="img-responsive img-rounded" src="img/nav-menu/nav3.jpg" alt="" />
-                            <!-- Title for purchase item -->
-                            <span class="cart-title"><a href="#">Sinter et Molests Perfectionist</a></span>
-                            <!-- Cart item price -->
-                            <span class="cart-price pull-right red">$99/-</span>
-                            <div class="clearfix"></div>
-                        </div>
-                    </li>
-                    <li>
-                        <!-- Cart items for shopping list -->
-                        <div class="cart-item">
-                            <a class="btn btn-danger" data-toggle="modal" href="#shoppingcart1">Checkout</a>
-                        </div>
-                    </li>
-                </ul>
                 <div class="clearfix"></div>
             </div>
             <div class="clearfix"></div>

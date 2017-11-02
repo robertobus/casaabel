@@ -18,7 +18,7 @@ Landing page based on Pratt: http://blacktie.co/demo/pratt/
     @include('layouts.partials.web.mainheader')
 
     <!-- Slider -->
-    @include('layouts.partials.web.slider')
+    @yield('home-slider')
 
     <!-- Main Content -->
     <div class="main-content">
